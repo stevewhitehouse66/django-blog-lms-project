@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-stevewhiteh-djangoblogl-e7uht9fwdjz.ws-eu108.gitpod.io', '.herokuapp.com']
 
@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-]
+    'django_summernote',
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
