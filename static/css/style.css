@@ -76,6 +76,9 @@ body {
     position: relative;
     overflow: hidden;
 }
+.profile-image{
+    width: 75%;
+}
 
 .masthead-image:after {
     content: "";
